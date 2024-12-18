@@ -13,9 +13,9 @@ lib.name = bsaylor
 
 # link statically
 FFTW3_CFLAGS =
-FFTW3_LIBS = -l:libfftw3.a
+FFTW3_LIBS = -lfftw3
 FFTW3F_CFLAGS =
-FFTW3F_LIBS = -l:libfftw3f.a
+FFTW3F_LIBS = -lfftw3f
 
 objects = aenv~ partconv~ pvoc~ susloop~ svf~ zhzxh~
 
